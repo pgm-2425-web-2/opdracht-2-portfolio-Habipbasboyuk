@@ -113,7 +113,7 @@ nav {
   & .img6 {
     grid-area: img6;
     height: 100%;
-    object-fit: fill;
+    object-fit: cover;
 
   }
   & .img7 {
@@ -125,6 +125,43 @@ nav {
   & .img9 {
     grid-area: img9;
   }
+}
+
+.contact {
+    margin-bottom: 2rem;
+
+    & h2 {
+        font-size: 3rem;
+        line-height: 1;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    & div {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    & button {
+        margin-top: 1rem;
+        background-color: black;
+        color: white;
+        border: none;
+    }
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 3rem;
+
+    & p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
