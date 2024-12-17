@@ -27,10 +27,23 @@ nav {
   }
 }
 
+@keyframes backgroundover {
+    0% {
+        background-color: #5eb6c9;
+    }
+
+    50%{
+        background-color: orange;
+    }
+
+    100% {
+        background-color: #59b8c8;
+    }
+}
 .over {
   color: white;
   background-color: #59b8c8;
-
+  animation: backgroundover 4s infinite;
   & h2 {
     font-size: 3rem;
     text-align: center;
@@ -60,11 +73,12 @@ nav {
   }
 }
 
+
 .grid-container {
   margin-top: 3rem;
   color: white;
   background-color: #5eb6c9;
-
+    
   & h2 {
     font-size: 2rem;
   }
