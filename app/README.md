@@ -1,1 +1,1 @@
-https://pgm-2425-web-2.github.io/opdracht-2-portfolio-Habipbasboyuk/
+"https://github.com/pgm-2425-web-2/opdracht-2-portfolio-Habipbasboyuk.git"
