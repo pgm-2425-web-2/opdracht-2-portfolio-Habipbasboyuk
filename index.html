@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Habip Basboyuk</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <nav>
         <ul>
@@ -20,151 +27,175 @@
         </ul>
     </nav>
 
-<main>
+    <main>
 
-    <picture>
+        <section class="name-container">
+            <picture>
 
-        <source srcset="./images/habip.avif">
+                <source srcset="./images/habip.avif">
 
-        <source srcset="./images/habip.webp">
+                <source srcset="./images/habip.webp">
 
-        <img src="./images/habip.jpeg" alt="Habip">
+                <img src="./images/habip.jpeg" alt="Habip">
 
-    </picture>
+            </picture>
 
-    <section class="name-section">
+            <section class="name-section">
 
-        <h1>Habip <br> <span>Basboyuk</span></h1>
-    
-        <p>Student graduaat Programmeren</p>
+                <h1>Habip <br> <span>Basboyuk</span></h1>
 
-    </section>
+                <p>Student graduaat Programmeren</p>
+
+            </section>
+        </section>
 
 
-    <section class="over">
-        <h2>over</h2>
-        <p>Ik ben een enthousiaste student met een passie voor technologie en probleemoplossingen. Tijdens mijn opleiding <span>Graduaat Programmeren</span> ontwikkel ik vaardigheden in verschillende programmeertalen zoals <span>Javascript</span> en Python. Mijn interesse ligt vooral in het bouwen van efficiënte applicaties en het creeëren van gebruiksvriendelijke interfaces.</p>
 
-        <p>In mijn vrije tijd werk ik graag aan persoonlijke projecten en blijf ik op de hoogte van de nieuwste technologieën. Mijn doel is om na mijn studie als softwareontwikkelaar aan de slag te gaan en innovatieve oplossingen te ontwikkelen die een verschil maken.</p>
-    </section>
-
-    <section class="skill">
-        <h2>Kennis</h2>
-
-        <p>HTML</p>
-        <div class="block-container">
-            <div class="block"></div>
-            <div class="block"></div>
-            <div class="block"></div>
-            <div class="block"></div>
-            <div class="block"></div>
-            <div class="block"></div>
-            <div class="block"></div>
-            <div class="block"></div>
-        </div>
-
-        <p>CSS</p>
-        <div class="block-container">
-            <div class="block"></div>
-            <div class="block"></div>
-            <div class="block"></div>
-            <div class="block"></div>
-            <div class="block"></div>
-            <div class="block"></div>
-            <div class="block"></div>
-            <div class="block"></div>
-        </div>
-        
-        <p>Javascript</p>
-        <div class="block-container">
-            <div class="block"></div>
-            <div class="block"></div>
-            <div class="block"></div>
-            <div class="block"></div>
-            <div class="block"></div>
-        </div>
-
-        
-
-    </section>
-
-    <section class="grid-container">
-        <h2>Projects</h2>
-
-        <div class="grid">
-
-            <div class="grid-item portfolio"><p>portfolio</p>
+        <section class="over">
+            <h2>over</h2>
+            <div class="over-animation">
+                <span>over</span>
+                <span>over</span>
+                <span>over</span>
+                <span>over</span>
+                <span>over</span>
             </div>
 
-            <img class="grid-item img1" src="images/image1.avif" alt="">
+            <div class="information">
+                <p>Ik ben een enthousiaste student met een passie voor technologie en probleemoplossingen. Tijdens mijn
+                    opleiding <span>Graduaat Programmeren</span> ontwikkel ik vaardigheden in verschillende
+                    programmeertalen zoals <span>Javascript</span> en Python. Mijn interesse ligt vooral in het bouwen
+                    van efficiënte applicaties en het creeëren van gebruiksvriendelijke interfaces.</p>
 
-            <img class="grid-item img2" src="images/image2.avif" alt="">
+                <p>In mijn vrije tijd werk ik graag aan persoonlijke projecten en blijf ik op de hoogte van de nieuwste
+                    technologieën. Mijn doel is om na mijn studie als softwareontwikkelaar aan de slag te gaan en
+                    innovatieve oplossingen te ontwikkelen die een verschil maken.</p>
 
-            <img class="grid-item img3" src="images/image3.avif" alt="">
-
-            <img class="grid-item img4" src="images/image4.avif" alt="">
-
-            <img class="grid-item img5" src="images/image5.avif" alt="">
-
-            <img class="grid-item img6" src="images/image6.avif" alt="">
-
-            <img class="grid-item img7" src="images/image7.avif" alt="">
-
-            <img class="grid-item img8" src="images/image8.avif" alt="">
-
-            <img class="grid-item img9" src="images/image9.avif" alt="">
-
-        </div>
-    </section>
-
-    <section class="contact">
-        <h2>Contacteer ons</h2>
-
-        <form action="">
-            <div>
-                <label for="name">Naam</label>
-            <input type="text" name="name" id="name">
             </div>
+        </section>
 
-            <div>
-                <label for="email">Email</label>
-                <input type="email" id="email">
-            </div>
-
-            <div>
-                <label for="dropdown">Reden</label>
-                <select name="dropdown" id="dropdown">
-
-                    <option value="">-- Geef reden --</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-
-                </select>
-            </div>
-
-            <div>
-                <label for="message">Bericht</label>
-                <textarea name="message" id="message"></textarea>
-            </div>
+        <section class="skill">
+            <h2 class="animated-border">Kennis</h2>
             
-            <div>
-                
-                <button type="submit">Verzenden</button>
+            <div class="skill-container">
+                <div class="block-container">
+                    <p>HTML</p>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                </div>
 
+                <div class="block-container">
+                    <p>CSS</p>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                </div>
+
+                <div class="block-container">
+                    <p>Javascript</p>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                </div>
             </div>
 
-        </form>
-    </section>
 
 
-    <footer>
-        <p>
-            &#169; Arteveldehogeschool
-        </p>
-    </footer>
-</main>
+
+        </section>
+
+        <section class="grid-container">
+            <h2>Projects</h2>
+
+            <div class="grid">
+
+                <div class="grid-item portfolio">
+                    <p>portfolio</p>
+                </div>
+
+                <img class="grid-item img1" src="images/image1.avif" alt="">
+
+                <img class="grid-item img2" src="images/image2.avif" alt="">
+
+                <img class="grid-item img3" src="images/image3.avif" alt="">
+
+                <img class="grid-item img4" src="images/image4.avif" alt="">
+
+                <img class="grid-item img5" src="images/image5.avif" alt="">
+
+                <img class="grid-item img6" src="images/image6.avif" alt="">
+
+                <img class="grid-item img7" src="images/image7.avif" alt="">
+
+                <img class="grid-item img8" src="images/image8.avif" alt="">
+
+                <img class="grid-item img9" src="images/image9.avif" alt="">
+
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contacteer ons</h2>
+
+            <form action="">
+                <div>
+                    <label for="name">Naam</label>
+                    <input type="text" name="name" id="name" placeholder="Naam">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="bv. naam@gmail.com">
+                </div>
+
+                <div>
+                    <label for="dropdown">Reden</label>
+                    <select name="dropdown" id="dropdown">
+
+                        <option value="">-- Geef reden --</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+
+                    </select>
+                </div>
+
+                <div>
+                    <label for="message">Bericht</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+
+                <div>
+
+                    <button type="submit">Verzenden</button>
+
+                </div>
+
+            </form>
+        </section>
+
+
+        <footer>
+            <p>
+                &#169; Arteveldehogeschool
+            </p>
+        </footer>
+    </main>
 
 
 </body>
+
 </html>
