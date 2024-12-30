@@ -92,6 +92,10 @@ nav {
   & span {
     display: none;
   }
+
+  & p span {
+    display: inline-block
+  }
 }
 
 @keyframes slideInOut {
@@ -125,7 +129,6 @@ nav {
     & .over-animation {
 
       & span {
-        display: block;
       font-size: 7.5rem;
       margin-left: 1rem;
       line-height: 0.6;
@@ -158,6 +161,8 @@ nav {
       width: 20rem;
       padding: 2rem;
       padding-left: 0;
+
+
     }
   }
 }
