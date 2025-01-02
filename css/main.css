@@ -266,7 +266,7 @@ nav {
     width: 0;
     height: 5px;
     background-color: black;
-    animation: draw-bottom-to-right 5s 2.5s infinite; /* delayed start */
+    animation: draw-bottom-to-right 5s 2.5s infinite;
   }
 
   & .block-container {
@@ -334,11 +334,13 @@ nav {
       "img6 img6 img8"
       "img9 img9 img9";
       flex-grow: 1;
+      padding-bottom: 2rem;
   }
 
-  & .grid-item {
+  & .grid .grid-item {
     object-fit: cover;
     width: 100%;
+    height: 100%;
     height: 8rem;
   }
 }
@@ -358,6 +360,7 @@ nav {
       "img9 . .";
   }
 }
+
 
 .grid {
   gap: 0.3rem;
@@ -389,7 +392,7 @@ nav {
     grid-area: img6;
     height: 100%;
     object-fit: cover;
-
+    
   }
   & .img7 {
     grid-area: img7;
@@ -400,6 +403,18 @@ nav {
   & .img9 {
     grid-area: img9;
   }
+}
+
+@media(min-width: 70rem) {
+  .grid-container .grid {
+    grid-template-areas:
+      "img1 img1 img2 img3"
+      "portfolio img4 img5 img3"
+      "portfolio img6 img6 img7"
+      "img8 img8 img9 img7";
+  }
+
+ 
 }
 
 .contact {
