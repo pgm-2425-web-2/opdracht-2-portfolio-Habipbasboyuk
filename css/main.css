@@ -247,6 +247,15 @@ nav {
   }
 }
 
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
 .skill {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -289,6 +298,102 @@ nav {
     justify-content: center;
     gap: 0.3rem;
     align-items: center;
+  }
+
+  .block-container-html:hover {
+    .html {
+      animation: rotate 1s forwards;
+    }
+    .html:nth-child(1) {
+      animation-delay: 0s;
+    }
+    .html:nth-child(2) {
+      animation-delay: 0.3s;
+    }
+    .html:nth-child(3) {
+      animation-delay: 0.6s;
+    }
+    .html:nth-child(4) {
+      animation-delay: 0.9s;
+    }
+    .html:nth-child(5) {
+      animation-delay: 1.2s;
+    }
+    .html:nth-child(6) {
+      animation-delay: 1.5s;
+    }
+    .html:nth-child(7) {
+      animation-delay: 1.8s;
+    }
+    .html:nth-child(8) {
+      animation-delay: 2.1s;
+    }
+
+    .html:nth-child(9) {
+      animation-delay: 2.4s;
+    }
+
+  }
+
+  .block-container-css:hover {
+    .css {
+      animation: rotate 1s forwards;
+    }
+    .css:nth-child(1) {
+      animation-delay: 0s;
+    }
+    .css:nth-child(2) {
+      animation-delay: 0.3s;
+    }
+    .css:nth-child(3) {
+      animation-delay: 0.6s;
+    }
+    .css:nth-child(4) {
+      animation-delay: 0.9s;
+    }
+    .css:nth-child(5) {
+      animation-delay: 1.2s;
+    }
+    .css:nth-child(6) {
+      animation-delay: 1.5s;
+    }
+    .css:nth-child(7) {
+      animation-delay: 1.8s;
+    }
+    .css:nth-child(8) {
+      animation-delay: 2.1s;
+    }
+
+    .css:nth-child(9) {
+      animation-delay: 2.4s;
+    }
+
+  }
+
+  .block-container-javascript:hover {
+    .javascript {
+      animation: rotate 1s forwards;
+    }
+    .javascript:nth-child(1) {
+      animation-delay: 0s;
+    }
+    .javascript:nth-child(2) {
+      animation-delay: 0.3s;
+    }
+    .javascript:nth-child(3) {
+      animation-delay: 0.6s;
+    }
+    .javascript:nth-child(4) {
+      animation-delay: 0.9s;
+    }
+    .javascript:nth-child(5) {
+      animation-delay: 1.2s;
+    }
+    .javascript:nth-child(6) {
+      animation-delay: 1.5s;
+    }
+
+
   }
 
   & .block {
