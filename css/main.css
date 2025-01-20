@@ -356,10 +356,17 @@ nav {
 
   & .block-container {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     gap: 0.3rem;
     align-items: center;
-  }
+    
+
+    .blocks {
+      display: flex;
+      gap: 0.2rem;
+    }
+  }   
 
   .block-container-html:hover {
     .html {
@@ -478,9 +485,11 @@ nav {
       display: flex;
       flex-direction: column;
       margin-left: 0.5rem;
+      
+
       & .block-container {
         align-items: center;
-
+        flex-direction: row;
         & p {
           padding-right: 1rem;
           text-align: left;
@@ -632,7 +641,7 @@ nav {
     cursor: pointer;
 
     &:hover {
-      animation: backgroundover 1s ease-in infinite;
+      animation: backgroundover 2s ease-in infinite;
     }
   }
 }
