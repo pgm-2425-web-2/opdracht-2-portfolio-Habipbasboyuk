@@ -62,7 +62,7 @@ nav {
   & ul li a {
     padding-right: 0.7rem;
     border-bottom: 0.2px solid transparent;
-    background: linear-gradient(to right, #5eb6c9, orange);
+    background: linear-gradient(320deg, #feac5e, #c779d0, #4bc0c8);
     background-position: left  bottom;
     background-size: 0% 0.2rem; 
     background-repeat: no-repeat;
@@ -154,15 +154,19 @@ nav {
 
 @keyframes backgroundover {
   0% {
-    background-color: #5eb6c9;
+    background-color: #feac5e;
   }
 
-  50% {
-    background-color: orange;
+  33% {
+    background-color: #c779d0;
+  }
+
+  66% {
+    background-color: #4bc0c8;
   }
 
   100% {
-    background-color: #59b8c8;
+    background-color: #feac5e;
   }
 }
 .over {
@@ -207,7 +211,6 @@ nav {
 @media (min-width: 50rem) {
   .over {
     background-color: #00a2e8;
-    animation: none;
     display: flex;
     justify-content: space-between;
 
@@ -307,6 +310,13 @@ nav {
   }
 }
 
+
+.skill-container {
+  justify-content: space-between;
+  width: 11rem;
+  margin: 0 auto;
+}
+
 .skill {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -346,7 +356,7 @@ nav {
 
   & .block-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 0.3rem;
     align-items: center;
   }
@@ -445,6 +455,7 @@ nav {
 
   & .block {
     background-color: black;
+    align-content: start;
     width: 10px;
     height: 10px;
   }
@@ -466,7 +477,7 @@ nav {
     & .skill-container {
       display: flex;
       flex-direction: column;
-
+      margin-left: 0.5rem;
       & .block-container {
         align-items: center;
 
@@ -511,6 +522,10 @@ nav {
 }
 
 @media (min-width: 50rem) {
+
+  .grid-container h2 {
+    font-size: 5rem;
+  }
   .grid-container .grid {
     grid-template-areas:
       "img1 img1 img2"
@@ -643,12 +658,12 @@ nav {
 
 footer {
   background-color: black;
-  color: white;
+  
   height: 3rem;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   & p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: white;
   }
 }
