@@ -6,7 +6,10 @@ body {
 }
 
 .name-container {
+
+
   & picture {
+    transition: ease-in 2s;
     position: relative;
   }
 }
@@ -19,17 +22,19 @@ body {
   top: 25%;
   left: 32%;
   position: absolute;
+
 }
 
 .name-container picture:hover {
   img {
     height: 19.5rem;
     width: 40rem;
+
   }
 
   .blur_effect {
     display: none;
-    transition: ease-in 2s;
+
   }
 }
 
@@ -467,8 +472,8 @@ nav {
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    padding-left: 2rem;
     padding-right: 2rem;
+    padding-left: 0.5rem;
 
     & .animated-border {
       font-size: 4rem;
@@ -477,7 +482,7 @@ nav {
     & .skill-container {
       display: flex;
       flex-direction: column;
-      margin-left: 0.5rem;
+      margin-left: 0rem;
       
 
       & .block-container {
@@ -661,6 +666,21 @@ nav {
       width: 80%;
     }
   }
+}
+
+@media(min-width: 70rem) {
+ .contact {
+  justify-content: center;
+  h2 {
+  width: 30rem
+  }
+
+  form {
+    width: 40rem;
+   }
+
+
+ } 
 }
 
 footer {
